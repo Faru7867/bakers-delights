@@ -330,7 +330,7 @@ input, textarea, select { font-family: var(--font-sans); }
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   overflow: hidden;
 }
 
@@ -347,22 +347,19 @@ input, textarea, select { font-family: var(--font-sans); }
   position: absolute; inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(28, 27, 46, 0.25) 0%,
-    rgba(28, 27, 46, 0.55) 50%,
-    rgba(28, 27, 46, 0.82) 100%
+    rgba(28, 27, 46, 0.55) 0%,
+    rgba(28, 27, 46, 0.62) 50%,
+    rgba(28, 27, 46, 0.88) 100%
   );
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 0 28px 60px;
   width: 100%;
   max-width: 780px;
-  padding-left: 60px;
-  padding-bottom: 80px;
+  margin: 0 auto;
+  padding: 140px 60px 50px;
 }
 
 .hero-eyebrow {
@@ -384,11 +381,11 @@ input, textarea, select { font-family: var(--font-sans); }
 
 .hero-title {
   font-family: var(--font-sans);
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
   font-weight: 900;
   color: white;
-  line-height: 1.08;
-  margin-bottom: 22px;
+  line-height: 1.12;
+  margin-bottom: 20px;
   letter-spacing: -0.02em;
 }
 .hero-title em {
@@ -403,7 +400,7 @@ input, textarea, select { font-family: var(--font-sans); }
 
 .hero-desc {
   font-size: 1.05rem;
-  color: rgba(255,255,255,0.68);
+  color: rgba(255,255,255,0.85);
   max-width: 500px;
   margin-bottom: 38px;
   font-weight: 400;
@@ -1181,7 +1178,7 @@ input, textarea, select { font-family: var(--font-sans); }
 
 @media (max-width: 768px) {
   .section          { padding: 72px 0; }
-  .hero-content     { padding: 80px 28px 60px; }
+  .hero-content     { padding: 110px 28px 40px; }
   .hero-title       { font-size: 2.8rem; }
 
   .nav-links {
