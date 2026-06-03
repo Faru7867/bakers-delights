@@ -262,16 +262,3 @@ document.querySelectorAll('.gallery-item').forEach(item => {
   });
 });
 
-// ── Smooth hover parallax on hero ───────────────────────────
-const hero = document.getElementById('hero');
-hero.addEventListener('mousemove', (e) => {
-  const { clientX, clientY } = e;
-  const { innerWidth, innerHeight } = window;
-  const xPct = (clientX / innerWidth - 0.5) * 10;
-  const yPct = (clientY / innerHeight - 0.5) * 6;
-  document.querySelector('.hero-slide.active').style.transform = `scale(1.05) translate(${xPct}px, ${yPct}px)`;
-});
-hero.addEventListener('mouseleave', () => {
-  const active = document.querySelector('.hero-slide.active');
-  if (active) active.style.transform = '';
-});
