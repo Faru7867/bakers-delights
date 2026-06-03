@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baker's Delights — Artisan Bakery Since 2012</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── LOADER ── -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">Baker's Delights</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p class="loader-sub">Artisan Bakery · Est. 2012</p>
+    </div>
+  </div>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">BD</span>
+        <span class="logo-text">Baker's <strong>Delights</strong></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Menu</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Order Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-slider">
+      <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1800&q=90');"><div class="hero-overlay"></div></div>
+      <div class="hero-slide"        style="background-image:url('https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=1800&q=90');"><div class="hero-overlay"></div></div>
+      <div class="hero-slide"        style="background-image:url('https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=1800&q=90');"><div class="hero-overlay"></div></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Artisan Bakery · Est. 2012</p>
+      <h1 class="hero-title">
+        Freshly Baked<br />
+        <em>Happiness</em> Every Day
+      </h1>
+      <p class="hero-desc">Handcrafted with love and the finest ingredients. Every bite tells a story of warmth, tradition, and pure indulgence.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Order Now</a>
+        <a href="#products" class="btn btn-outline">Explore Menu</a>
+      </div>
+    </div>
+
+    <div class="hero-bottom">
+      <div class="hero-stats">
+        <div class="stat"><strong>50+</strong><span>Menu Items</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><strong>10,000+</strong><span>Happy Customers</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><strong>12 Years</strong><span>Of Excellence</span></div>
+      </div>
+      <div class="slider-dots">
+        <button class="dot active" data-slide="0"></button>
+        <button class="dot" data-slide="1"></button>
+        <button class="dot" data-slide="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MARQUEE STRIP ── -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Handcrafted Daily</span><span class="sep">·</span>
+      <span>Organic Ingredients</span><span class="sep">·</span>
+      <span>Same-Day Delivery</span><span class="sep">·</span>
+      <span>Custom Orders Welcome</span><span class="sep">·</span>
+      <span>Award-Winning Recipes</span><span class="sep">·</span>
+      <span>Handcrafted Daily</span><span class="sep">·</span>
+      <span>Organic Ingredients</span><span class="sep">·</span>
+      <span>Same-Day Delivery</span><span class="sep">·</span>
+      <span>Custom Orders Welcome</span><span class="sep">·</span>
+      <span>Award-Winning Recipes</span><span class="sep">·</span>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images reveal">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=85" alt="Baker at work" />
+          </div>
+          <div class="about-img-float">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=85" alt="Fresh artisan bread" />
+          </div>
+          <div class="about-badge-float">
+            <span class="badge-num">12</span>
+            <span class="badge-text">Years of<br/>Mastery</span>
+          </div>
+        </div>
+
+        <div class="about-text reveal">
+          <p class="section-eyebrow">Our Story</p>
+          <h2 class="section-title">Crafted with Intention.<br /><em>Baked to Perfection.</em></h2>
+          <p>Baker's Delights was founded on a singular conviction — that great baking is an act of care. Founded in 2012 by pastry chef Elena Rossi, we have grown into a destination for those who appreciate the art behind every loaf, tart, and macaron.</p>
+          <p>We source only certified organic ingredients: single-origin butter, heritage grain flours, and seasonal produce from local farms. No shortcuts, no compromises.</p>
+
+          <div class="about-features">
+            <div class="feature-item reveal">
+              <div class="feature-num">01</div>
+              <div>
+                <strong>Organic Ingredients</strong>
+                <span>Locally sourced, always fresh</span>
+              </div>
+            </div>
+            <div class="feature-item reveal">
+              <div class="feature-num">02</div>
+              <div>
+                <strong>Expert Artisans</strong>
+                <span>Trained pastry professionals</span>
+              </div>
+            </div>
+            <div class="feature-item reveal">
+              <div class="feature-num">03</div>
+              <div>
+                <strong>Custom Orders</strong>
+                <span>Your vision, our craft</span>
+              </div>
+            </div>
+            <div class="feature-item reveal">
+              <div class="feature-num">04</div>
+              <div>
+                <strong>Same-Day Delivery</strong>
+                <span>Fresh to your door</span>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Visit Our Bakery</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRODUCTS ── -->
+  <section id="products" class="section bg-soft">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Our Menu</p>
+        <h2 class="section-title">Featured <em>Delights</em></h2>
+        <p class="section-desc">Each creation is handcrafted daily using time-honored recipes and the finest seasonal ingredients.</p>
+      </div>
+
+      <div class="filter-tabs reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="cakes">Cakes</button>
+        <button class="filter-btn" data-filter="pastries">Pastries</button>
+        <button class="filter-btn" data-filter="bread">Bread</button>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-card reveal" data-category="cakes">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700&q=85" alt="Chocolate Dream Cake" />
+            <span class="product-tag">Bestseller</span>
+            <button class="product-wishlist" aria-label="Wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path></svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Cakes</span>
+            <h3>Chocolate Dream Cake</h3>
+            <p>Triple-layered dark chocolate with ganache frosting and salted caramel.</p>
+            <div class="product-rating"><span class="stars">★★★★★</span><span>4.9 (248)</span></div>
+            <div class="product-footer">
+              <span class="product-price">$38.00</span>
+              <button class="btn-add">Add to Order</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="cakes">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=700&q=85" alt="Strawberry Cupcakes" />
+            <span class="product-tag new">New</span>
+            <button class="product-wishlist" aria-label="Wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path></svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Cupcakes</span>
+            <h3>Strawberry Cupcakes</h3>
+            <p>Vanilla sponge with fresh strawberry buttercream and edible rose petals.</p>
+            <div class="product-rating"><span class="stars">★★★★★</span><span>4.8 (185)</span></div>
+            <div class="product-footer">
+              <span class="product-price">$4.50 each</span>
+              <button class="btn-add">Add to Order</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="pastries">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=700&q=85" alt="French Macarons" />
+            <span class="product-tag">Popular</span>
+            <button class="product-wishlist" aria-label="Wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path></svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Macarons</span>
+            <h3>French Macarons</h3>
+            <p>Almond meringue shells with seasonal ganache. Box of 12, 6 flavors.</p>
+            <div class="product-rating"><span class="stars">★★★★★</span><span>4.9 (312)</span></div>
+            <div class="product-footer">
+              <span class="product-price">$24.00</span>
+              <button class="btn-add">Add to Order</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="pastries">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=700&q=85" alt="Butter Croissants" />
+            <button class="product-wishlist" aria-label="Wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path></svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Pastries</span>
+            <h3>Butter Croissants</h3>
+            <p>72-hour slow-fermented dough laminated with premium French butter.</p>
+            <div class="product-rating"><span class="stars">★★★★☆</span><span>4.7 (156)</span></div>
+            <div class="product-footer">
+              <span class="product-price">$3.50 each</span>
+              <button class="btn-add">Add to Order</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="pastries">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=700&q=85" alt="Glazed Donuts" />
+            <span class="product-tag new">New</span>
+            <button class="product-wishlist" aria-label="Wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path></svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Donuts</span>
+            <h3>Glazed Donuts</h3>
+            <p>Pillowy brioche donuts with seasonal glazes — rose, matcha, and classic vanilla.</p>
+            <div class="product-rating"><span class="stars">★★★★★</span><span>4.9 (204)</span></div>
+            <div class="product-footer">
+              <span class="product-price">$3.00 each</span>
+              <button class="btn-add">Add to Order</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal" data-category="bread">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?w=700&q=85" alt="Artisan Sourdough" />
+            <span class="product-tag">Chef's Pick</span>
+            <button class="product-wishlist" aria-label="Wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path></svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Bread</span>
+            <h3>Artisan Sourdough</h3>
+            <p>Hand-shaped with a crackling crust and open, chewy crumb. Baked at dawn.</p>
+            <div class="product-rating"><span class="stars">★★★★★</span><span>4.9 (289)</span></div>
+            <div class="product-footer">
+              <span class="product-price">$9.00</span>
+              <button class="btn-add">Add to Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SPECIAL OFFERS ── -->
+  <section id="offers" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Limited Time</p>
+        <h2 class="section-title">Exclusive <em>Offers</em></h2>
+      </div>
+      <div class="offers-grid">
+        <div class="offer-card offer-blush reveal">
+          <div class="offer-content">
+            <span class="offer-tag">Weekend Special</span>
+            <h3><em>Buy 2, Get 1 Free</em></h3>
+            <p>On all cupcakes and macarons every Saturday and Sunday. Mix and match flavors freely.</p>
+            <div class="offer-code">Use code <strong>SWEET2024</strong></div>
+            <a href="#contact" class="btn btn-dark">Claim Offer</a>
+          </div>
+          <div class="offer-img-wrap">
+            <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=500&q=80" alt="Cupcakes" />
+          </div>
+        </div>
+
+        <div class="offer-card offer-plum reveal">
+          <div class="offer-content">
+            <span class="offer-tag">Morning Special</span>
+            <h3><em>The Breakfast Box</em></h3>
+            <p>2 croissants + 1 sourdough loaf + drip coffee for just $12. Available 7–10 AM daily.</p>
+            <div class="offer-code">Use code <strong>MORNBOX</strong></div>
+            <a href="#contact" class="btn btn-light">Claim Offer</a>
+          </div>
+          <div class="offer-img-wrap">
+            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80" alt="Croissants" />
+          </div>
+        </div>
+
+        <div class="offer-card offer-dark reveal">
+          <div class="offer-content">
+            <span class="offer-tag">Birthday Special</span>
+            <h3><em>Custom Cake</em><br/>10% Off</h3>
+            <p>Order your custom celebration cake 3 days ahead and save 10% on any size or tier.</p>
+            <div class="offer-code">Use code <strong>BDAY10</strong></div>
+            <a href="#contact" class="btn btn-gold">Design Your Cake</a>
+          </div>
+          <div class="offer-img-wrap">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80" alt="Birthday Cake" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section id="testimonials" class="section bg-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow light">Happy Customers</p>
+        <h2 class="section-title light">Trusted by <em>Thousands</em></h2>
+        <p class="section-desc light">Over 10,000 satisfied customers. Here is what they say.</p>
+      </div>
+      <div class="testimonials-wrapper reveal">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-stars">★★★★★</div>
+              <svg class="testi-quote-icon" viewBox="0 0 32 32" fill="none"><path d="M10 8C6.686 8 4 10.686 4 14v10h10V14H7c0-1.657 1.343-3 3-3V8zm18 0c-3.314 0-6 2.686-6 6v10h10V14h-7c0-1.657 1.343-3 3-3V8z" fill="currentColor"/></svg>
+            </div>
+            <p>"The chocolate cake was absolutely divine — the centerpiece of my daughter's birthday. Every single guest asked where it came from. Will order again and again."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Sarah Mitchell" />
+              <div>
+                <strong>Sarah Mitchell</strong>
+                <span>Food Blogger, New York</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-stars">★★★★★</div>
+              <svg class="testi-quote-icon" viewBox="0 0 32 32" fill="none"><path d="M10 8C6.686 8 4 10.686 4 14v10h10V14H7c0-1.657 1.343-3 3-3V8zm18 0c-3.314 0-6 2.686-6 6v10h10V14h-7c0-1.657 1.343-3 3-3V8z" fill="currentColor"/></svg>
+            </div>
+            <p>"I ordered a custom three-tier wedding cake and it exceeded every expectation. The team was meticulous, communicative, and the flavors were an absolute revelation."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="James Rodriguez" />
+              <div>
+                <strong>James Rodriguez</strong>
+                <span>Event Director</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-stars">★★★★★</div>
+              <svg class="testi-quote-icon" viewBox="0 0 32 32" fill="none"><path d="M10 8C6.686 8 4 10.686 4 14v10h10V14H7c0-1.657 1.343-3 3-3V8zm18 0c-3.314 0-6 2.686-6 6v10h10V14h-7c0-1.657 1.343-3 3-3V8z" fill="currentColor"/></svg>
+            </div>
+            <p>"The macarons are the finest I have had outside of Paris — perfectly crispy shells, incredibly silky fillings. I order a box every single week without exception."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80" alt="Priya Kapoor" />
+              <div>
+                <strong>Priya Kapoor</strong>
+                <span>Pastry Enthusiast</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-stars">★★★★★</div>
+              <svg class="testi-quote-icon" viewBox="0 0 32 32" fill="none"><path d="M10 8C6.686 8 4 10.686 4 14v10h10V14H7c0-1.657 1.343-3 3-3V8zm18 0c-3.314 0-6 2.686-6 6v10h10V14h-7c0-1.657 1.343-3 3-3V8z" fill="currentColor"/></svg>
+            </div>
+            <p>"Their sourdough has completely ruined supermarket bread for me. The crust, the crumb, the depth of flavor — it is genuinely exceptional. Baker's Delights is the real thing."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Tom Bennett" />
+              <div>
+                <strong>Tom Bennett</strong>
+                <span>Home Chef</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testi-top">
+              <div class="testi-stars">★★★★★</div>
+              <svg class="testi-quote-icon" viewBox="0 0 32 32" fill="none"><path d="M10 8C6.686 8 4 10.686 4 14v10h10V14H7c0-1.657 1.343-3 3-3V8zm18 0c-3.314 0-6 2.686-6 6v10h10V14h-7c0-1.657 1.343-3 3-3V8z" fill="currentColor"/></svg>
+            </div>
+            <p>"Same-day delivery is a lifesaver. I ordered at noon and a beautifully packaged cake arrived by 4 PM. Stunning presentation, extraordinary taste. Highly recommend."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&q=80" alt="Lena Walker" />
+              <div>
+                <strong>Lena Walker</strong>
+                <span>Loyal Customer</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="testi-controls">
+          <button class="testi-btn" id="testiPrev">←</button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-btn" id="testiNext">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Our Creations</p>
+        <h2 class="section-title">A Feast <em>for the Eyes</em></h2>
+        <p class="section-desc">Every product is a work of art. A glimpse into our world of flavors and craft.</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item tall">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=700&q=85" alt="Layered cake" />
+          <div class="gallery-overlay"><span>Celebration Cakes</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=600&q=85" alt="Cupcakes" />
+          <div class="gallery-overlay"><span>Cupcakes</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=85" alt="Bread" />
+          <div class="gallery-overlay"><span>Artisan Bread</span></div>
+        </div>
+        <div class="gallery-item wide">
+          <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=1000&q=85" alt="Pastry spread" />
+          <div class="gallery-overlay"><span>Morning Pastries</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=600&q=85" alt="Macarons" />
+          <div class="gallery-overlay"><span>French Macarons</span></div>
+        </div>
+        <div class="gallery-item tall">
+          <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600&q=85" alt="Donuts" />
+          <div class="gallery-overlay"><span>Gourmet Donuts</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?w=600&q=85" alt="Sourdough" />
+          <div class="gallery-overlay"><span>Sourdough</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&q=85" alt="Glazed Donuts" />
+          <div class="gallery-overlay"><span>Glazed Donuts</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section bg-soft">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Order or <em>Visit Us</em></h2>
+        <p class="section-desc">Place your order, ask a question, or stop by — we would love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-form-wrap reveal">
+          <form id="contactForm" class="contact-form">
+            <h3>Place an Order</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name</label>
+                <input type="text" placeholder="Jane" required />
+              </div>
+              <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" placeholder="Doe" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" placeholder="jane@email.com" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+1 (555) 000-0000" />
+            </div>
+            <div class="form-group">
+              <label>What are you ordering?</label>
+              <select>
+                <option value="">Select a product...</option>
+                <option>Chocolate Dream Cake</option>
+                <option>Strawberry Cupcakes</option>
+                <option>French Macarons</option>
+                <option>Butter Croissants</option>
+                <option>Glazed Donuts</option>
+                <option>Artisan Sourdough</option>
+                <option>Custom Cake Order</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Special Instructions</label>
+              <textarea rows="4" placeholder="Dietary requirements, delivery date, custom requests..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Order Request</button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-check">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <h3>Order Received</h3>
+            <p>Thank you — we will be in touch within 2 hours.</p>
+          </div>
+        </div>
+
+        <div class="contact-info reveal">
+          <div class="info-card">
+            <div class="info-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div>
+              <strong>Visit Us</strong>
+              <p>42 Rosemary Lane, Sweet District<br />New York, NY 10001</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+            </div>
+            <div>
+              <strong>Call Us</strong>
+              <p>+1 (555) 842-9330<br />Mon–Sat: 7 AM – 8 PM</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <p>hello@bakersdelights.com<br />orders@bakersdelights.com</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <div>
+              <strong>Opening Hours</strong>
+              <p>Mon–Fri: 7:00 AM – 8:00 PM<br />Sat–Sun: 8:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+          <div class="map-placeholder">
+            <p>42 Rosemary Lane, New York</p>
+            <span>Baker's Delights</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo"><span class="logo-mark sm">BD</span> Baker's <strong>Delights</strong></div>
+            <p>Handcrafted with love since 2012. Your neighborhood artisan bakery for life's most meaningful moments.</p>
+            <div class="social-links">
+              <a href="#" class="social-btn" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="Pinterest">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.19 8.19 0 004.79 1.54V6.79a4.85 4.85 0 01-1.02-.1z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navigate</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#products">Our Menu</a></li>
+              <li><a href="#offers">Special Offers</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Specialties</h4>
+            <ul>
+              <li><a href="#">Celebration Cakes</a></li>
+              <li><a href="#">French Macarons</a></li>
+              <li><a href="#">Artisan Bread</a></li>
+              <li><a href="#">Morning Pastries</a></li>
+              <li><a href="#">Custom Orders</a></li>
+              <li><a href="#">Corporate Catering</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col newsletter-col">
+            <h4>Stay in the Loop</h4>
+            <p>Weekly recipes, exclusive offers, and new product announcements.</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input type="email" placeholder="your@email.com" required />
+              <button type="submit">Subscribe</button>
+            </form>
+            <p class="newsletter-note">No spam. Unsubscribe anytime.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Baker's Delights. All rights reserved. Crafted with care.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
